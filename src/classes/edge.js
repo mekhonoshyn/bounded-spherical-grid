@@ -1,5 +1,3 @@
-'use strict';
-
 class Edge {
     constructor(id) {
         Object.assign(this, {

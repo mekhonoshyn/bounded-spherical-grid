@@ -1,7 +1,5 @@
 /* global global, performance */
 
-'use strict';
-
 export {
     entryPoint,
     utility

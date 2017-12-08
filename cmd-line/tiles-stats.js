@@ -1,7 +1,5 @@
 /* global require */
 
-'use strict';
-
 const commandLineArgs = require('command-line-args');
 const {GridFactory} = require('../bin/generator');
 const {Stack, Vector3} = require('../bin/classes');

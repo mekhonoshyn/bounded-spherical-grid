@@ -13,32 +13,5 @@ module.exports = {
         library: '',
         libraryTarget: 'commonjs2'
     },
-    resolve: {
-        modules: [
-            path.resolve(__dirname, 'node_modules')
-        ]
-    },
-    module: {
-        rules: [
-            {
-                test: /\.js$/,
-                exclude: /(node_modules)/,
-                use: {
-                    loader: 'babel-loader',
-                    options: {
-                        cacheDirectory: true,
-                        presets: ['es2015', 'stage-2'],
-                        plugins: ['transform-runtime']
-                    }
-                }
-            },
-            {
-                test: /\.json$/,
-                use: {
-                    loader: 'json-loader'
-                }
-            }
-        ]
-    },
     target: 'node'
 };

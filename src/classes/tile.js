@@ -1,5 +1,3 @@
-'use strict';
-
 import Corner from './corner';
 import Stack from '../utils/stack';
 import Vector3 from './vector3';

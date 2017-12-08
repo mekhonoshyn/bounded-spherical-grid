@@ -1,5 +1,3 @@
-'use strict';
-
 import VERTICES from './constants/icosahedron-vertices';
 import TILE_TILES from './constants/icosahedron-tile-tiles.json';
 import EDGE_TILES from './constants/icosahedron-edge-tiles.json';

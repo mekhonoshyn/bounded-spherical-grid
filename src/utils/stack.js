@@ -1,5 +1,3 @@
-'use strict';
-
 const proxyHandler = {
     get: (target, property) => {
         const fixedProperty = isInteger(property)

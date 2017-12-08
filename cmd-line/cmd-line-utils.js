@@ -1,7 +1,5 @@
 /* global module */
 
-'use strict';
-
 module.exports = {
     printOut
 };

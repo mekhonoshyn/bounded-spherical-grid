@@ -1,5 +1,3 @@
-'use strict';
-
 import Corner from './corner';
 import Edge from './edge';
 import Tile from './tile';

@@ -1,5 +1,3 @@
-'use strict';
-
 class Vector3 {
     constructor(x = 0, y = 0, z = 0) {
         Object.assign(this, {x, y, z});

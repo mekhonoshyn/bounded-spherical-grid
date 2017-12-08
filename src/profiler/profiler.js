@@ -1,7 +1,5 @@
 /* global require */
 
-'use strict';
-
 import settings from './settings.json';
 
 export default initializer;
